@@ -1,0 +1,20 @@
+.chat-list{
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.bg-chat-light {
+    background-color: #24b9b9;
+    display: flex;
+    justify-content: flex-start;
+}
+.bg-chat-dark {
+    background-color: #b1cce3;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: #007bff;
+}
